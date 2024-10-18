@@ -3,7 +3,7 @@
 import { ParticlesBackground } from "./components/ParticlesBackground";
 import Grid from "./components/grid/Grid";
 import { TextEffect } from "./components/TextEffect";
-import Projects from "./components/Projects";
+// import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
         </header>
       </div>
       <Grid />
-      <Projects />
+      {/* <Projects /> */}
       <Footer />
     </>
   );
