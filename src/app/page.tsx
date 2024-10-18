@@ -1,7 +1,10 @@
 'use client';
 
 import { ParticlesBackground } from "./components/ParticlesBackground";
+import Grid from "./components/grid/Grid";
 import { TextEffect } from "./components/TextEffect";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 const Home = () => {
 
@@ -12,13 +15,13 @@ const Home = () => {
         <header className="relative">
           <span className="uppercase tracking-widest text-xs text-center text-blue">welcome to my portfolio</span>
           <TextEffect
-            words="Hello, World! I'm Percy."
+            words="Hello, World! I'm Percy (Hee Yup)."
           />
         </header>
       </div>
-      {/* <Grid />
+      <Grid />
       <Projects />
-      <Footer /> */}
+      <Footer />
     </>
   );
 };
