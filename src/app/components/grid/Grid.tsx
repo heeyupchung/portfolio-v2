@@ -8,11 +8,16 @@ export default function Grid() {
         <div className="text-lg lg:text-3xl font-semibold text-lg p-4 flex justify-center">
           <h2 className="text-purple items-center">Who am I?</h2>
         </div>
-        <div className="space-y-4 min-h-60">
-          <p>I'm Percy, and I love building things that live on the internet! 
-            I am a self-taught Front End Software Engineer with an education in Mathematics and Education, and a passion for building dynamic and user-friendly web applications and intuitive solutions. 
-            I enjoy working on challenging projects that push me to learn and grow, whether it is collaborating with teams or building solutions independently. 
-            If you are looking for a developer who is passionate, adaptable, and skilled in building efficient, scalable applications, feel free to check out my portfolio or reach out to me directly!</p>
+        <div className="flex justify-center">
+          <div className="mt-8 max-h-60 max-w-60">
+            <img className="rounded-full" src="prof.png" alt="profile-picture"/>
+          </div>
+        </div>
+        <div className="space-y-4 min-h-30 mt-12">
+          <p>I'm Percy, a self-taught Front-End Developer with an education in Mathematics and Education, and a passion for building dynamic and user-friendly web applications and intuitive solutions.</p>
+          <p>I enjoy working on challenges that push me to learn and grow, whether it is collaborating with teams or building solutions independently. 
+            Whether I am working on personal projects, websites for friends and family, or even work-related endeavors, I love to learn from my experiences and strive for excellence in producing web pages or applications.</p>
+          <p>If you are looking for a developer who is passionate, adaptable, and skilled in building efficient, scalable applications, feel free to check out my portfolio or reach out to me directly!</p>
         </div>
       </div>
 

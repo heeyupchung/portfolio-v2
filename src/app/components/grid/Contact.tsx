@@ -28,7 +28,7 @@ export default function Contact() {
       {socialMedias.map((socialMedia) => (
         <a href={socialMedia.link} target="_blank"
           key={socialMedia.id}
-          className="cursor-pointer size-10 flex justify-center items-center bg-[#10132e] rounded-lg border border-white/[0.1]"
+          className="cursor-pointer size-10 flex justify-center items-center bg-[#10132e] hover:brightness-200 rounded-lg border border-white/[0.1]"
         >
           <span>{socialMedia.img}</span>
         </a>

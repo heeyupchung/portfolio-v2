@@ -1,5 +1,5 @@
 export default function Loading() {
   return (
-    <h1 className="relative text-red-800">loading</h1>
+    <h1 className="relative">loading</h1>
   )
 }
