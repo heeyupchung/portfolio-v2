@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { BiLogoTypescript } from "react-icons/bi"
 import { DiCss3, DiGithubBadge, DiHtml5, DiJavascript, DiJsBadge, DiReact, DiBootstrap } from "react-icons/di"
 import { RiNextjsLine } from "react-icons/ri"
@@ -103,7 +104,7 @@ export default function Projects() {
           <div key={project.id}
             className="flex flex-col justify-center sm:w-[570px] w-[80vw]">
             <a href={project.website} target="_blank">
-              <img src={project.img} alt={project.title}
+              <Image src={project.img} alt={project.title}
               className="rounded-3xl transform transition duration-300 hover:scale-110 hover:rotate-2 hover:border border-white/[0.2]" />
             </a>
             <h3 className="font-bold lg:text-xl md:text-xl text-base mt-4">
